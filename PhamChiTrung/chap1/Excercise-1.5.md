@@ -1,5 +1,3 @@
-# Ex1.5
-
 * Program 1
 
 a, Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
