@@ -10,6 +10,6 @@ c. Supply one or more new partitions that capture the intent of “Location of e
 but do not suffer from completeness or disjointness problems:
     - Block1: element is not null but it still in the list.
     - Block2: element is either not null or not in the list.
-    - Block3: element is null.
+    - Block3: element is the first element in a list with length bigger than 2.
     
 ```
