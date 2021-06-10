@@ -3,7 +3,7 @@
 
 * a) The code is incorrect since the for loop should go from top to bottom, but it only goes from top to the element close to the bottom in this code, thus it can't provide a perfect answer.
 
-```
+```java
 public static int findLast (int[] x, int y)
 { 
  
@@ -31,7 +31,7 @@ x = [1,0,3]
 y= 1
 * Program 2: Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
 
-```
+```java
 public static int lastZero (int[] x)
 { 
 int index = -1
@@ -53,7 +53,7 @@ As a result, the defect is executed by all inputs
 a ) Describe the flaws in the provided code. Propose a code update to accurately describe the problem.<br>
 we need to find positive element but in this code, we count 0, and 0 is not a positive number.
 
-```
+```java
 public int countPositive (int[] x) 
 { 
 int count = 0; 
@@ -74,9 +74,11 @@ x= [1,-2]
 If not, briefly explain why not. if we have 0 in the test case, it will always execute it
 
 * Program 4
-* a) Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
-it weong in the logical operator, it must be "&&" while it has "||"  
-```
+
+* a) Describe the fault precisely by proposing a modification to the code.
+it weong in the logical operator, it must be "&&" while it has "||". Explain what is wrong with the given code. 
+
+```java
 public static int oddOrPos(int[] x)
 { 
  int count = 0;
