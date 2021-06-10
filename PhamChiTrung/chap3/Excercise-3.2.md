@@ -1,5 +1,3 @@
-Inheritance can make following input and output difficult, since
-you have to keep track of multiple class definitions to be able 
-to get an overview of what is going on when the tests are running
-.Sometimes there will be inheritance graphs so long that,it feels
-like going up and down like a yo-yo.
+# Exercise 3.2:
+
+Because you must maintain track of many class definitions to gain an overview of what is going on while the tests are running, inheritance can make it difficult to follow input and output. There are times when inheritance graphs are so long that they feel like they're yo-yoing up and down.
