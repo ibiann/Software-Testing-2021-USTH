@@ -1,4 +1,4 @@
-* Exercise 3.5:
+# Exercise 3.5:
 
 - You can assume that the object names has been properly instantiated and  the add() and sort() methods have already been tested and work correctly
 
