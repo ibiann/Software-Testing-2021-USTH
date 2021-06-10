@@ -22,9 +22,9 @@ class Vector_test {
 ```
 
 ## b) 
-One of possible fault is lack of verification statements such as checking the two vectors are empty or have different dimensions.
+Lack of verification statements such as checking the two vectors are empty or have different dimensions.
 
-## c)
+## c) Test Case 
 ```Java
 Vec a = new Vector()
 Vec b = new Vector()
@@ -40,7 +40,7 @@ Vec b = new Vector();
 b.add(8)
 ```
 
-## d)
+## d) Test Case
 ```Java
 public static Vector union(Vector a, Vector b, boolean inv = False)
 {
