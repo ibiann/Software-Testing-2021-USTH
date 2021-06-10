@@ -1,4 +1,4 @@
-* Exercise 3.10
+# Exercise 3.10
 
 * Is the resulting theory valid or invalid? How many of the tests that pass the precondition also<br> 
 pass the postcondition? Explain.
