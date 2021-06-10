@@ -30,7 +30,7 @@ d )
 x = [1,0,3]
 y= 1
 * Program 2: Explain what is wrong with the given code. Describe the fault precisely by proposing a modification to the code.
-* 
+
 ```
 public static int lastZero (int[] x)
 { 
