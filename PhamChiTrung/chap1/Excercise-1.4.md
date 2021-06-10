@@ -1,30 +1,29 @@
 # Excercise 1.4 #
 
-## a) Write a Java method with the signature
+## a) 
 ```Java
 import java.util.Vector;
 
 class Vector_test {
-    public static Vector union (Vector a, Vector b) {
-        Vector v = new Vector();
+    public static Vector union (Vec a, Vec b) {
+        Vec v = new Vector();
         v.addAll(a);
         v.addAll(b);
         return v;
     }
     public static void main(String[] args) {
-        Vector a = new Vector();
+        Vec a = new Vector();
         a.add(10);
-        Vector b = new Vector();
+        Vec b = new Vector();
         b.add(8);
-        Vector v = union(a, b);
+        Vec v = union(a, b);
     }
 }
 ```
 
-## b) 
-One of possible fault is lack of verification statements such as checking the two vectors are empty or have different dimensions.
+## b) lack of verification statements such as checking the two vectors are empty or have different dimensions.
 
-## c)
+## c) TestCase
 ```Java
 Vector a = new Vector()
 Vector b = new Vector()
@@ -40,7 +39,7 @@ Vector b = new Vector();
 b.add(8)
 ```
 
-## d)
+## d) TestCase
 ```Java
 public static Vector union(Vector a, Vector b, boolean inv = False)
 {
@@ -49,14 +48,14 @@ public static Vector union(Vector a, Vector b, boolean inv = False)
   {
     if (inv)
     {
-      Vector v = new Vector();
+      Vec v = new Vector();
       v.addAll(b);
       v.addAll(a);
       return v;
     }
     else
     {
-      Vector v = new Vector();
+      Vec v = new Vector();
       v.addAll(a);
       v.addAll(b);
       return v;
