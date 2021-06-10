@@ -1,4 +1,4 @@
-# Excercise 1.4 #
+# Excercise 1.4 
 
 ## Write a Java method with the signature
 ```Java
@@ -21,8 +21,7 @@ class Vec_test {
 }
 ```
 
-## 
-One of possible fault is lack of verification statements such as checking the two vectors is having different dimensions.
+## Lack of verification statements such as checking the two vectors is having different dimensions.
 
 ##
 ```Java
